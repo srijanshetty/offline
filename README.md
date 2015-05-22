@@ -14,7 +14,7 @@ Install
 1. Copy offline to anywhere in \$path
 2. For completions, copy \_offline to some locations in \$fpath.
 
-USAGE
+Usage
 ------
 
 ```
@@ -28,7 +28,7 @@ COMMAND:
     -h | help            Show this help message
 ```
 
-LICENSE
+License
 -------
 
 MIT © [Srijan R. Shetty](https://srijanshetty.in)
