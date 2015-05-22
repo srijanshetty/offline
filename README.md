@@ -28,6 +28,11 @@ COMMAND:
     -h | help            Show this help message
 ```
 
+Demo
+-------
+
+![demo](./offline.gif)
+
 License
 -------
 
