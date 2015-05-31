@@ -36,6 +36,7 @@ function _offline-execute() {
 
     # Now run each command one by one
     while read line; do
+        echo "$line" | sed 's|cd ||' | tr '\n' ':'; echo -n '\n'
         eval "$line" || echo "$line" >> "$STORED_COMMANDS"
     done < "$TEMP_FILE"
 
