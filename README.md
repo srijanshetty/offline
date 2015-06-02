@@ -1,3 +1,5 @@
+> Store commands when offline and execute them in batch when online.
+
 ```
        _________
  ___  / _/ _/ (_)__  ___
@@ -6,13 +8,11 @@
 
 ```
 
-Store commands when offline and execute them later in batch mode.
-
 Install
 -------
 
-1. Copy offline to anywhere in \$path
-2. For completions, copy \_offline to some locations in \$fpath.
+1. Copy [offline](offline) to anywhere in $PATH.
+2. Completions can be enabled by copying [\_offline](\_offline) to any location in $FPATH.
 
 Usage
 ------
